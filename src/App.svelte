@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { derived, writable } from "svelte/store";
   import { onMount } from "svelte";
+  import { derived, writable } from "svelte/store";
   import Paragraph from "./lib/Paragraph.svelte";
 
   interface Repository {
@@ -37,9 +37,9 @@
   });
 </script>
 
-<main class="max-w-2xl mx-auto pt-32 pb-16 flex max-md:flex-col">
+<main class="max-w-2xl mx-auto pt-8 sm:pt-32 pb-16 flex max-md:flex-col px-4">
   <section
-    class="max-w-md mx-auto gap-2 [&_p]:text-xs [&_p]:text-justify [&_p]:text-white/50 grid grid-cols-[calc(var(--spacing)_*_40),_1fr] gap-x-6 md:max-w-40 md:flex md:flex-col"
+    class="max-w-md mx-auto gap-2 [&_p]:text-xs [&_p]:text-justify [&_p]:text-white/50 grid grid-cols-[calc(var(--spacing)_*_40),_1fr] gap-x-6 md:max-w-40 md:flex md:flex-col max-sm:flex max-sm:flex-col max-sm:items-center"
   >
     <section class="w-40 h-40 col-auto row-span-2 bg-white/20 rounded-md">
       <img
@@ -50,14 +50,16 @@
         decoding="async"
       />
     </section>
-    <section class="inline-flex flex-col col-start-2">
+    <section class="inline-flex flex-col col-start-2 max-sm:[&_a]:text-center">
       {#each $links as link}
         <a href={link} target="_blank" class="text-xs text-white/80 truncate"
           >{link}</a
         >
       {/each}
     </section>
-    <section class="inline-flex flex-col col-start-2 row-start-2 gap-2">
+    <section
+      class="inline-flex flex-col col-start-2 row-start-2 gap-2 max-sm:[&_p]:text-center"
+    >
       <p>JAVA KOTLIN JAVASCRIPT TYPESCRIPT C GO RUST SQL</p>
       <p>REACT SVELTE VUE FLUTTER NEXT TAILWINDCSS ZUSTAND</p>
       <p>
