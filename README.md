@@ -16,6 +16,7 @@ funcionais para problemas reais. Gosto de músicas, séries e gatinhos.
 ### Meus projetos
 * [🩺 airi | A simple scheduling app I made for my mom because the government can't provide one on its own or something](https://github.com/iarlo/airi)
 * [📒 dinossauro-pula-pula | Joguinho simples feito em equipe para disciplina de programação funcional UFS 2023.1](https://github.com/iarlo/dinossauro-pula-pula)
+* [😺 kit | Keep it trivial - A simple CLI tool designed to simplify common and repetitive git commands.](https://github.com/iarlo/kit)
 * [😵‍💫 labirintite | Provavelmente o resolvedor de labirintos mais tonto que você já viu. Projeto feito para disciplina de programação imperativa UFS 2024.2](https://github.com/iarlo/labirintite)
 * [📚 letterbookd | Letterboxd só que pra livros. Feito em equipe para a disciplina de programação orientada a objetos UFS 2025.1](https://github.com/iarlo/letterbookd)
 * [🤑 silent | Sistema simples em TUI para gestão de loja e emissão de notas fiscais. Feito em equipe para a disciplina de programação orientada a objetos UFS 2025.1](https://github.com/iarlo/silent)
