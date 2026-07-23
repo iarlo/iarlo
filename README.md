@@ -1,6 +1,6 @@
 ### Olá, sou iarlo
 
-Meu nome é Bruno Sá, tenho 21 anos e atualmente sou estudante de\
+Meu nome é Bruno Sá, tenho 22 anos e atualmente sou estudante de\
 ciência da computação na Universidade Federal de Sergipe (UFS).\
 Comecei a me apaixonar por programação aos 12 anos, e atualmente\
 estou em um relacionamento sério com Typescript e C. Adoro desafios\
